@@ -1,0 +1,88 @@
+body {
+	background: rgb(200, 182, 166);
+	color:rgb(50,50,50);
+	font-family: 'Roboto', sans-serif;
+	font-weight:lighter;
+	font-size:19px;
+}
+
+h1,h2,h3 {
+font-family: 'Lato';
+}
+
+
+h1 {
+  color:rgb(141,123,104);	
+  letter-spacing: 8px;
+  font-size:32px;
+  text-transform: uppercase;
+}
+
+h2,h3 {
+  font-weight:bolder;
+  color:rgb(141, 123, 104)
+}
+
+a {
+   color: rgb(141, 123, 104);
+   transition:color 0.35s ease;
+}
+
+a:hover {
+ color:rgb(241, 222, 201);
+}
+
+
+.container{
+  width:700px;
+  margin:40px auto;
+
+}
+
+@media (max-width:750px) {
+  .container{
+    width:600px;
+  }
+}
+
+
+@media (max-width:500px) {
+  .container{
+    width:400px;
+  }
+}
+
+.card-white{
+  background-color:white;
+  padding: 40px;
+  box-shadow:0px 10px 30px rgba(0,0,0,0.6);
+  border-radius:5px;
+  margin:20px 0px;
+  text-align: center;
+}
+
+}
+
+.img-circle{
+  border-radius:40%;
+  border-color:black;
+  border-size:3px;
+}
+
+.list-inline{
+  list-style:none;
+  padding-left:0px;
+}
+
+.list-inline li {
+  display:inline;
+  padding:10px;
+}
+
+.list-inline i {
+  font-size:50px;
+}
+
+#introduction p{
+  margin-top:50px;
+}
